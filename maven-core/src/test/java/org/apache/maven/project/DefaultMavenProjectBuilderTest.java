@@ -195,6 +195,7 @@ public class DefaultMavenProjectBuilderTest
         assertNotNull( result.getDependencyResolutionResult() );
     }
 
+    @Test
     public void testImportScopePomResolvesFromPropertyBasedRepository()
             throws Exception
     {
